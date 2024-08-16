@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+  }
+  nav {
+    background-color: rgb(7, 7, 89);
+    padding: 20px;
+  }
+  nav div {
+    display: inline-block;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 50px 0 0;
+  }
+  .logo img {
+    width: 80px;
+    margin-bottom: -35px;
+  }
+  .anchors {
+    margin-left: 400px;
+  }
+  /* banner section */
+  .bannerSection {
+    text-align: center;
+    margin-top: 50px;
+  }
+  .bannerSection img {
+    width: 300px;
+  }
+  .bannerSection .col1 {
+    text-align: left;
+  }
+
+  .bannerSection div {
+    display: inline-block;
+    width: 49%;
+  }
+  /* About section */
+  .aboutSection {
+    margin: auto;
+    margin-top: 100px;
+    width: 90%;
+  }
+  .aboutSection h1 {
+    text-align: center;
+  }
+  .aboutSection p {
+    text-align: justify;
+  }
+
+  /* Course Section */
+  .coursesSection
+  {
+    margin-top: 100px;
+  text-align: center;
+  margin-bottom: 100px;
+  }
+  .coursesSection>h1{
+    margin-bottom: 50px;
+  }
+  .coursesSection .course1 {
+    width: 26%;
+    display: inline-block;
+    margin: 0 10px;
+    box-shadow: 2px 2px 10px black;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .coursesSection .course1 img{
+    width: 100%;
+  }
+  .coursesSection .course1 h2{
+    text-align: left;
+    margin: 10px 0;
+  }
+  .coursesSection .course1 p{
+    text-align: left;
+    font-size: 14px;
+  }
+  .coursesSection .course1 button{
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    padding: 5px 10px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px black;
+  }
+  .coursesSection .course1 .button{
+    text-align: left;
+    
+  }
